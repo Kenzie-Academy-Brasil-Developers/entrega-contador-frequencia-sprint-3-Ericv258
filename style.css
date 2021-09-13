@@ -1,0 +1,50 @@
+:root{
+    --var-size-vw: 75vw;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin: auto;
+    width: fit-content;
+}
+
+p{
+    width: fit-content;
+}
+
+header{
+    margin: 20px auto 10px auto;    
+    height: 40px;
+}
+
+main{
+    display: flex;
+    flex-flow: column wrap;    
+    align-items: center;
+}
+
+#textInput{
+    width: var(--var-size-vw);
+    height: 200px;
+}
+
+#countButton{
+    float: right;
+}
+
+.resultContador{
+    width: fit-content;   
+    display: flex;
+    flex-flow: column wrap;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#lettersDiv{
+    width: var(--var-size-vw);
+}
+
+#wordsDiv{
+    width: var(--var-size-vw);
+}
